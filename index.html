@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ranadhir Reddy Rikkala</title>
+<meta name="description" content="Backend and infrastructure engineer. 7 years at OpenText, Amazon and Oracle. MS Software Engineering at San Jose State University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root {
+  --bg: #F4F7F8; --surface: #FFFFFF; --fg: #13202A; --muted: #566573; --line: #D8E0E5;
+  --accent: #0B6E7F; --accent-soft: #DCEFF2;
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0E151B; --surface: #142029; --fg: #E3EBF0; --muted: #9AABB7; --line: #263540; --accent: #52C4D0; --accent-soft: #123842; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 var(--body); padding: 48px max(16px, env(safe-area-inset-right)) 64px max(16px, env(safe-area-inset-left)); }
+main { max-width: 860px; margin: 0 auto; display: grid; gap: 48px; }
+h1, h2, h3 { font-family: var(--display); margin: 0; line-height: 1.15; text-wrap: balance; }
+h1 { font-size: clamp(32px, 6vw, 48px); font-weight: 800; }
+h2 { font-size: 22px; font-weight: 800; }
+h3 { font-size: 17px; font-weight: 600; }
+p { margin: 0; max-width: 70ch; }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.role { font-size: 19px; color: var(--muted); }
+.links { display: flex; flex-wrap: wrap; gap: 10px; }
+.links a { text-decoration: none; font-weight: 600; font-size: 14px; padding: 6px 14px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); }
+.links a:hover { border-color: var(--accent); }
+header { display: grid; gap: 14px; }
+section { display: grid; gap: 16px; }
+.label { font: 500 12px var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+.stat b { display: block; font: 800 26px var(--display); color: var(--accent); }
+.stat span { font-size: 14px; color: var(--muted); }
+.job { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: 18px; padding-block: 18px; border-top: 1px solid var(--line); }
+.job:first-of-type { border-top: 0; padding-top: 0; }
+.when { font: 500 13px var(--mono); color: var(--muted); padding-top: 3px; }
+.job ul { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 6px; }
+.where { color: var(--muted); font-size: 15px; }
+.projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; display: grid; gap: 8px; align-content: start; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tags span { font: 500 12px var(--mono); background: var(--accent-soft); color: var(--accent); border-radius: 4px; padding: 2px 7px; }
+.skills { display: grid; gap: 10px; }
+.skills div { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: 18px; }
+.skills dt { font-weight: 600; }
+.skills dd { margin: 0; color: var(--muted); }
+footer { color: var(--muted); font-size: 14px; }
+@media (max-width: 680px) {
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .projects { grid-template-columns: 1fr; }
+  .job, .skills div { grid-template-columns: 1fr; gap: 4px; }
+}
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <div class="label">San Jose, CA</div>
+  <h1>Ranadhir Reddy Rikkala</h1>
+  <p class="role">Backend and infrastructure engineer. Seven years building distributed systems, CI/CD and LLM agents at OpenText, Amazon and Oracle. Now an MS Software Engineering student at San Jose State University.</p>
+  <div class="links">
+    <a href="https://www.linkedin.com/in/ranadhir">LinkedIn</a>
+    <a href="https://github.com/ranadhir-rikkala">GitHub</a>
+    <a href="mailto:ranadhirreddy.rikkala@sjsu.edu">ranadhirreddy.rikkala@sjsu.edu</a>
+  </div>
+</header>
+
+<div class="stats">
+  <div class="stat"><b>10M+</b><span>transactions a day on services I ran at Amazon</span></div>
+  <div class="stat"><b>30→2 min</b><span>CI/CD failure triage with LLM agents at Oracle</span></div>
+  <div class="stat"><b>6x</b><span>faster build pipelines (3 h → 30 min)</span></div>
+  <div class="stat"><b>20</b><span>services reviewed as design lead across 8 teams</span></div>
+</div>
+
+<section>
+  <h2>Experience</h2>
+  <div class="job">
+    <div class="when">May 2024 – Jul 2026</div>
+    <div>
+      <h3>Senior Data Systems Engineer · Oracle</h3>
+      <div class="where">Bengaluru, India</div>
+      <ul>
+        <li>Built agentic AI workflows with LLMs and NLP that analyze build logs, find root causes and trace failures to commits, cutting triage from 30 minutes to 2 minutes across 15 pipelines.</li>
+        <li>Made build pipelines 6x faster, from 3 hours to 30 minutes, by finding and removing critical-path bottlenecks.</li>
+        <li>Built a reverse proxy that routes API requests dynamically, improving service isolation and cutting latency by 35%.</li>
+        <li>Re-architected 12 control-plane services into Docker microservices, improving fault isolation and throughput by 80%.</li>
+        <li>Built multi-region CI/CD with validation gates and deployment safeguards, reducing production incidents by 40%.</li>
+        <li>Led design and architecture reviews for 20 services across 8 teams.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="job">
+    <div class="when">Nov 2021 – May 2024</div>
+    <div>
+      <h3>Software Development Engineer · Amazon</h3>
+      <div class="where">Bengaluru, India</div>
+      <ul>
+        <li>Designed and operated distributed return and refund services for the Amazon Global Store, handling 10M+ transactions a day.</li>
+        <li>Built event-driven systems on SQS, SNS and Lambda with idempotency, retries and dead-letter queues, keeping downstream services 100% in sync under peak load.</li>
+        <li>Led an automated compliance document system adopted across 5 global marketplaces, removing 90% of manual work.</li>
+        <li>Owned reliability and observability: metrics, dashboards, alert tuning and root-cause debugging of production incidents, reducing customer inquiries by 40%.</li>
+        <li>Received an Amazon Spot Award for automation and cost savings.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="job">
+    <div class="when">Jun 2019 – Nov 2021</div>
+    <div>
+      <h3>Software Engineer · OpenText</h3>
+      <div class="where">Hyderabad and Bengaluru, India (started as an engineering intern)</div>
+      <ul>
+        <li>Built Java REST APIs handling 1M+ requests a day, with automated API tests in CI/CD that cut regression cycles by 50%.</li>
+        <li>Built Docker deployment pipelines across dev, staging and prod, cutting setup time by 60%.</li>
+        <li>As an intern, helped move a monolith to microservices and wrote Swagger API docs used by 50+ engineers.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>AI Returns &amp; Refunds Agent</h3>
+      <p>A LangGraph state machine that grounds refund decisions in RAG over pgvector on AWS RDS, calls Java order and eligibility APIs as tools, and issues refunds idempotently. Scored 90% correct on 60 evaluation cases.</p>
+      <div class="tags"><span>LangGraph</span><span>RAG</span><span>pgvector</span><span>Java</span><span>AWS</span></div>
+    </div>
+    <div class="card">
+      <h3>NanoGate · HP Edge AI SJSUHack '26</h3>
+      <p>A local-first, OpenAI-compatible AI gateway built by a team of five in 24 hours: budget, DLP and policy checks, caching, model routing and hash-chained audit receipts in front of a local model.</p>
+      <div class="tags"><span>Python</span><span>FastAPI</span><span>vLLM</span><span>SQLite</span></div>
+    </div>
+    <div class="card">
+      <h3>AI-Powered Malware Detection</h3>
+      <p>A Python machine-learning module that classifies Windows PE files as malware or benign from header features, reaching 99.8% accuracy while reducing false positives.</p>
+      <div class="tags"><span>scikit-learn</span><span>Pandas</span><span>NumPy</span></div>
+    </div>
+    <div class="card">
+      <h3>See more on GitHub</h3>
+      <p>Code, experiments and coursework projects.</p>
+      <p><a href="https://github.com/ranadhir-rikkala">github.com/ranadhir-rikkala</a></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <dl class="skills">
+    <div><dt>Languages</dt><dd>Java, Python, Go, SQL, JavaScript, TypeScript, C/C++, Shell</dd></div>
+    <div><dt>Systems</dt><dd>Distributed systems, event-driven architecture, microservices, Kafka, gRPC, REST APIs</dd></div>
+    <div><dt>Cloud</dt><dd>AWS (SQS, SNS, ECS, RDS, Lambda, S3), Kubernetes, Docker, Terraform, GCP, CI/CD</dd></div>
+    <div><dt>Data</dt><dd>PostgreSQL, MySQL, Oracle, DynamoDB, Redis, Elasticsearch, vector databases</dd></div>
+    <div><dt>AI</dt><dd>LLM agents, RAG, LangGraph, LangChain, multi-agent orchestration, scikit-learn</dd></div>
+    <div><dt>Reliability</dt><dd>Grafana, alerting, distributed tracing, incident response, performance tuning</dd></div>
+  </dl>
+</section>
+
+<section>
+  <h2>Education and certifications</h2>
+  <div class="job">
+    <div class="when">Aug 2026 – May 2028</div>
+    <div><h3>MS, Software Engineering · San Jose State University</h3><div class="where">Enterprise Distributed Systems, Cloud Technologies, Machine Learning, Deep Learning, Enterprise Software Platforms</div></div>
+  </div>
+  <div class="job">
+    <div class="when">Aug 2016 – May 2020</div>
+    <div><h3>B.Tech, Computer Science · B.V. Raju Institute of Technology</h3><div class="where">GPA 3.8</div></div>
+  </div>
+  <div class="job">
+    <div class="when">Certifications</div>
+    <div><h3>AWS Certified Solutions Architect – Associate · AWS Certified Developer – Associate</h3><div class="where">600+ data structures and algorithms problems solved. Google Developer Groups volunteer: organized hackathons and taught DSA to university students.</div></div>
+  </div>
+</section>
+
+<footer>Looking for a Summer 2027 software engineering internship in backend, cloud or AI infrastructure.</footer>
+
+</main>
+</body>
+</html>
